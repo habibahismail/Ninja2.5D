@@ -21,7 +21,7 @@ namespace bebaSpace
         void Start()
         {
             controller = GetComponent<CharacterController>();
-            anim = GetComponentInChildren<Animator>();
+            anim = GetComponent<Animator>();
             playerModel = GameObject.FindGameObjectWithTag("Player").transform.GetChild(0).transform;
         }
 
